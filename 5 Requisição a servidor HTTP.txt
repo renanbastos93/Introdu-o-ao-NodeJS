@@ -1,0 +1,19 @@
+https://jsonplaceholder.typicode.com/users 
+ ou /todos ou /posts
+
+var http = require('http');
+var options = {
+   host:'https://jsonplaceholder.typicode.com',
+   port: 80,
+   path: '/',
+   method: 'GET'
+};
+
+console.log("Partiu fazer uma requisição...");
+var req = http.request(options, function(response) {
+   res.writeHead(200, {'Content-Type':'text/plain'});
+   res.end(response);   
+
+});
+
+req.end();

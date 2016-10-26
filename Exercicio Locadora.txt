@@ -1,0 +1,5 @@
+Você irá criar um sistema de uma locadora de filmes. O sistema deve permitir a criação de usuários (clientes), logon e logoff de um usuário, listagem de filmes disponíveis, locação de um filme, devolução de um filme, e pesquisa de filme pelo título.
+­ Um filme deve possuir um título e um diretor.
+­ A locadora pode possuir múltiplas cópias de um mesmo filme.
+­ Um usuário deve possuir um email para se identificar no sistema, um nome (para exibição) e uma senha.
+­ O sistema pode ser acessado concorrentemente por múltiplos usuários, que competirão pela locação dos filmes.
