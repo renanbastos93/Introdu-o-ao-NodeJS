@@ -1,0 +1,31 @@
+{
+  "name": "mini-curso-nodejs",
+  "version": "1.0.0",
+  "description": "Este Mini-Curso realizado na faculdade do SENAI em 27/10/2016. Transmite o que é Node.JS, como ele funciona e no que é útilizado, como por exemplo aplicações real-time, etc...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Mini",
+    "Curso",
+    "curso",
+    "introdução",
+    "node",
+    "nodejs",
+    "Node.JS",
+    "express",
+    "filesystem",
+    "fs",
+    "real-time",
+    "aplicação"
+  ],
+  "author": "Renan Bastos, Adrian Lemess",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.5"
+  }
+}

@@ -1,0 +1,6 @@
+service -> acesso ao banco | pros 2 -> fazer método para salvar música e listar músicas
+controller ->				|
+route.js -> dentro do config
+model -> música -> nome, genero, artista
+config -> express, mongoose, config, routes
+
