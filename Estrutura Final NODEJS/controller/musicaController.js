@@ -5,9 +5,10 @@ var operations = {};
 operations.save = function(req, res){
 	musicaService.save(req.body, function(data){
 		if(data){
-			res.send("Cadastrado com sucesso! > ");
+			var resposta = "Operation success! > "+data;
+			res.send(resposta);
 		}else{
-			res.send("não foi possivel");
+			res.send("Operation Invalid!");
 		}
 	});
 };
@@ -16,7 +17,7 @@ operations.list = function(req, res){
 		if(data){
 			res.send(data);
 		}else{
-			res.send("Dados não encontrados!");
+			res.send("No data found!");
 		}
 	});
 };

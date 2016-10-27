@@ -7,8 +7,8 @@ router.get('/',function(req, res){
 
 /* Route Music */
 router.get('/musicas', musicaController.list);
-router.post('/musicasInsert', musicaController.save);
-//router.put('/musica', musicaController.alter);
-//router.delete('/musica', musicaController.delete);
+router.post('/musica', musicaController.save);
+//router.put('/music', musicaController.alter);
+//router.delete('/music', musicaController.delete);
 
 module.exports = router;  
